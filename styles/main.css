@@ -63,8 +63,12 @@ h3 {
 }
 
 section {
-    padding-top: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /*margin-top: 2%;
+    margin-bottom: 5%;*/
     text-align: center;
+    border-bottom: 3px solid #eee;
 }
 
 #top {
@@ -81,4 +85,41 @@ hr {
 
 footer {
     text-align: center;
+}
+
+.centered {
+  display: block;
+  height: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  font-color: gray;
+}
+
+#list-right{
+    list-style-position: inside;
+    text-align: left;
+    padding-left: 30%;
+}
+
+#list-left{
+    list-style-position: inside;
+    text-align: left;
+}
+
+.out_goals {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#mission {
+    height: 350px;
+}
+
+#volunteers-list {
+    list-style-position: inside;
+    text-align: center;
+}
+
+#volunteers {
+    height: : 400px;
 }
