@@ -98,7 +98,7 @@ footer {
 #list-right{
     list-style-position: inside;
     text-align: left;
-    padding-left: 30%;
+    padding-left: 20%;
 }
 
 #list-left{
@@ -122,4 +122,20 @@ footer {
 
 #volunteers {
     height: : 400px;
+}
+
+#month-list {
+    list-style: none;
+    text-align: left;
+    color: gray;
+}
+
+#calendar-title {
+    text-align: left;
+    padding-left: 4%;
+    padding-bottom: .1%;
+}
+
+#events {
+    height: 535px;
 }
