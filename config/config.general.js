@@ -1,4 +1,4 @@
-{
+module.exports = {
   "menuOptions": [
     {"label": "HOME", "link": "index"},
     {"label": "OUR WORK", "link": "work"},
@@ -7,4 +7,4 @@
     {"label": "ABOUT US", "link": "about"},
     {"label": "DONATE", "link": "donate"}
   ]
-}
+};

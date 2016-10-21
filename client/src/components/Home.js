@@ -4,7 +4,7 @@
 
 var React = require("react"),
     _ = require("lodash"),
-    config = require("../../../config/home");
+    config = require("../../../config/config.home");
 
 var Home = React.createClass({
     render: function () {

@@ -1,5 +1,5 @@
-{
-  "title": "News",
+module.exports = {
+  "title": "Contact Us",
   "sections": [
     {
       "header": "DONATE TODAY",
@@ -7,4 +7,4 @@
       "link": {"title": "MAKE DONATION", "link": "donate"}
     }
   ]
-}
+};

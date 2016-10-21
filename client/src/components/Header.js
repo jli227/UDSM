@@ -5,7 +5,7 @@
 
 var React = require("react"),
     _ = require("lodash"),
-    config = require("../../../config/config");
+    config = require("../../../config/config.general");
 
 var Header = React.createClass({
     getInitialState: function () {

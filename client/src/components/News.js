@@ -4,7 +4,7 @@
 
 var React = require("react"),
     _ = require("lodash"),
-    config = require("../../../config/news");
+    config = require("../../../config/config.news");
 
 var News = React.createClass({
     render: function () {

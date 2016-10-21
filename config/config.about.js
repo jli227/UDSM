@@ -1,4 +1,4 @@
-{
+module.exports = {
   "title": "About Leon",
     "sections": [
     {
@@ -6,4 +6,4 @@
       "link": {"title": "LEARN MORE", "link": "about"}
     }
   ]
-}
+};

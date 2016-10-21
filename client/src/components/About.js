@@ -4,7 +4,7 @@
 
 var React = require("react"),
     _ = require("lodash"),
-    config = require("../../../config/about");
+    config = require("../../../config/config.about");
 
 var About = React.createClass({
     render: function () {

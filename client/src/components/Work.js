@@ -4,7 +4,7 @@
 
 var React = require("react"),
     _ = require("lodash"),
-    config = require("../../../config/work");
+    config = require("../../../config/config.work");
 
 var Work = React.createClass({
     render: function () {

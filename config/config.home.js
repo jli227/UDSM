@@ -1,4 +1,4 @@
-{
+module.exports = {
   "title": "University District Street Medicine",
   "titleDesc": "Addressing the need for quality healthcare for homeless individuals",
   "summary": "University District Street Medicine (UDSM) is a student-run, interdisciplinary, volunteer organization dedicated to improving health equity among the homeless population within the University District",
@@ -14,4 +14,4 @@
       "link": {"title": "MAKE DONATION", "link": "donate"}
     }
   ]
-}
+};

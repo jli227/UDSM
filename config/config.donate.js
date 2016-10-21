@@ -1,4 +1,4 @@
-{
+module.exports = {
   "title": "Donate",
   "sections": [
     {
@@ -7,4 +7,4 @@
       "link": {"title": "MAKE DONATION", "link": "donate"}
     }
   ]
-}
+};

@@ -4,7 +4,7 @@
 
 var React = require("react"),
     _ = require("lodash"),
-    config = require("../../../config/events");
+    config = require("../../../config/config.events");
 
 var Events = React.createClass({
     render: function () {

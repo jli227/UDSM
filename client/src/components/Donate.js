@@ -4,7 +4,7 @@
 
 var React = require("react"),
     _ = require("lodash"),
-    config = require("../../../config/donate");
+    config = require("../../../config/config.donate");
 
 var Donate = React.createClass({
     render: function () {
