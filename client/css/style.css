@@ -1,0 +1,55 @@
+body {
+    font-family: Futura, sans-serif;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+section {
+    display: inline-block;
+    width: 100%;
+}
+
+nav {
+    background-color: #FFF;
+}
+
+#udsm-logo {
+    width: 100px;
+}
+
+#menu li a {
+    letter-spacing: 2px;
+    color: inherit;
+}
+
+#menu li a:hover {
+    cursor: pointer;
+}
+
+.titleSection {
+    height: 80vh;
+    padding-top: 25vh;
+}
+
+.section {
+    text-align: center;
+    padding: 100px 200px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: 25px;
+}
+
+.btn {
+    margin: auto;
+    display: inline-block;
+}
+
+.btn-default {
+    background-color: #777;
+    color: #FFF;
+}
