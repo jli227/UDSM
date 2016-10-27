@@ -7,7 +7,13 @@ var React = require("react"),
 
     header = document.getElementById("header"),
     main = document.getElementById("main"),
+    footer = document.getElementById("footer"),
+    
+    // common components
     Header = require("./components/Header"),
+    Footer = require("./components/Footer"),
+    
+    // page components
     Home = require("./components/Home"),
     Events = require("./components/Events"),
     News = require("./components/News"),
@@ -38,7 +44,6 @@ if (window.location.pathname) {
             break;
         default:
             ReactDOM.render(<Home />, main);
-        // do nothing
     }
 }
-//ReactDOM.render(<Footer />, main);
+ReactDOM.render(<Footer />, footer);

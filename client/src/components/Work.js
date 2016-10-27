@@ -14,6 +14,12 @@ var Work = React.createClass({
                     <section className="section" key={ section + idx }>
                         { section.header ? <h2>{section.header}</h2> : <span />}
                         { section.body ? <p>{section.body}</p> : <span />}
+                        { section.list ?
+                            <ul>
+                                section.list.map(section.list.map(function (item) {
+                                    return (<li>item</li>);
+                                })
+                            </ul> : <span /> }
                         { section.link ? <a className="btn btn-default" href={section.link.link}>{section.link.title}</a> : <span />}
                     </section>
                     <hr/>
