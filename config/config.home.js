@@ -1,13 +1,7 @@
 module.exports = {
     "title": "University District Street Medicine",
-    "titleDesc": "Addressing the need for quality healthcare for homeless individuals",
-    "summary": "We are a student-run, interdisciplinary organization dedicated to improving health equity among the University District homeless population.",
+    "titleDesc": "We are a student-run, interdisciplinary organization dedicated to improving health equity among the University District homeless population.",
     "sections": [
-        {
-            "header": "The Facts",
-            "body": "<b>4,505</b> people sleeping outdoors in King County.",
-            "link": {"title": "LEARN MORE", "link": "about"}
-        },
         {
             "header": "DONATE TODAY",
             "body": "With your help, we can provide free care for the underserved who cannot afford to pay. Your"

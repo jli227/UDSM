@@ -1,5 +1,6 @@
 body {
     font-family: Futura, sans-serif;
+    font-size: 16px;
     padding-top: 150px;
     padding-bottom: 50px;
 }
@@ -11,6 +12,25 @@ section {
 
 nav {
     background-color: #FFF;
+}
+
+ul {
+    text-align: left;
+}
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 6px 6px -6px rgba(0, 0, 0, 0.3);
+}
+
+.facts {
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+.moderate {
+    font-size: 1em;
 }
 
 #udsm-logo {
@@ -32,8 +52,12 @@ nav {
 }
 
 .section {
+    padding: 100px 50px;
     text-align: center;
-    padding: 100px 200px;
+}
+
+.section p {
+    text-align: left;
 }
 
 h1, h2, h3, h4, h5, h6 {
