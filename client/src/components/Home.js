@@ -23,8 +23,8 @@ var Home = React.createClass({
         
         var partners = _.map(config.partners, function (partner, idx) {
             return (
-                <div key={ partner + idx}>
-                    <img src={ "../assets/partners/" + partner + ".png"} />
+                <div key={ partner + idx} className="col-sm-offset-1 col-sm-2" style={{ height: "200px" }}>
+                    <img style={{ maxWidth: "200px", maxHeight: "200px", verticalAlign: "center" }} src={ "../assets/partners/" + partner + ".png"} />
                 </div>
             );
         });
@@ -79,7 +79,12 @@ var Home = React.createClass({
 
                 </section>
                 { sections }
-                { partners }
+                
+                <section className="section">
+                    { partners }
+                </section>
+                
+                <hr/>
             </div>
         );
     }
