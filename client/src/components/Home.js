@@ -26,6 +26,7 @@ var Home = React.createClass({
                 <section className="titleSection">
                     <h1>{config.title}</h1>
                     <h5>{config.titleDesc}</h5>
+                    <button className="btn btn-default">{config.link}<button>
                 </section>
 
                 <hr/>
@@ -64,7 +65,9 @@ var Home = React.createClass({
                 </section>
                 
                 <hr/>
+                <section className="section">
 
+                </section>
                 { sections }
             </div>
         );
