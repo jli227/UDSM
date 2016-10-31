@@ -20,5 +20,9 @@ module.exports = {
             + " your passion for health care? Join us!",
             "link": {"title": "BE A VOLUNTEER", "link": "work"}
         }
+    ],
+    "partners": [
+        "ashifajhrc", "christepchurch", "egh", "houseofcharity", "rfu", "rotacarefreeclinics", "ssrfc", "streetmi", "stvp", "tentcc", "UAMS",
+        "ucsdsrfcp", "udistpart", "uheights", "UNC", "Vanderbilt", "Widener"
     ]
 };

@@ -24,7 +24,7 @@ var Home = React.createClass({
         var partners = _.map(config.partners, function (partner, idx) {
             return (
                 <div key={ partner + idx}>
-                    <img src={ "..assets/partners/" + partner + ".png"} />
+                    <img src={ "../assets/partners/" + partner + ".png"} />
                 </div>
             );
         });
@@ -79,6 +79,7 @@ var Home = React.createClass({
 
                 </section>
                 { sections }
+                { partners }
             </div>
         );
     }
