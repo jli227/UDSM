@@ -40,7 +40,7 @@ var Work = React.createClass({
                                 <ul>
                                     {
                                         _.map(section.list2, function (item, idx) {
-                                            return (<li className="moderate col-sm-6" key={ "item" + idx }>{ item }</li>);
+                                            return (<li className="moderate col-xs-6 out_goals" key={ "item" + idx }>{ item }</li>);
                                         })
                                     }
                                 </ul> : <span />

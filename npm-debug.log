@@ -1,0 +1,532 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ 'C:\\Users\\Morya Jr\\desktop\\Freelance_Work\\UDSM',
+5 verbose install   [ 'body-parser',
+5 verbose install     'ejs',
+5 verbose install     'express',
+5 verbose install     'grunt',
+5 verbose install     'lodash',
+5 verbose install     'path',
+5 verbose install     'react',
+5 verbose install     'react-dom',
+5 verbose install     'bootstrap',
+5 verbose install     'grunt-browserify',
+5 verbose install     'grunt-concat-css',
+5 verbose install     'grunt-contrib-clean',
+5 verbose install     'grunt-contrib-concat',
+5 verbose install     'grunt-contrib-cssmin',
+5 verbose install     'grunt-contrib-uglify',
+5 verbose install     'grunt-react',
+5 verbose install     'grunt-run',
+5 verbose install     'reactify' ] ]
+6 info preinstall udsm@1.0.0
+7 warn package.json path@0.12.7 path is also the name of a node core module.
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping body-parser@^1.15.2 C:\Users\Morya Jr\desktop\Freelance_Work\UDSM
+10 verbose already installed skipping ejs@^2.5.2 C:\Users\Morya Jr\desktop\Freelance_Work\UDSM
+11 verbose already installed skipping express@^4.14.0 C:\Users\Morya Jr\desktop\Freelance_Work\UDSM
+12 verbose already installed skipping grunt@^1.0.1 C:\Users\Morya Jr\desktop\Freelance_Work\UDSM
+13 verbose already installed skipping lodash@^4.15.0 C:\Users\Morya Jr\desktop\Freelance_Work\UDSM
+14 verbose already installed skipping path@^0.12.7 C:\Users\Morya Jr\desktop\Freelance_Work\UDSM
+15 verbose already installed skipping react@^15.3.1 C:\Users\Morya Jr\desktop\Freelance_Work\UDSM
+16 verbose already installed skipping react-dom@^15.3.1 C:\Users\Morya Jr\desktop\Freelance_Work\UDSM
+17 verbose cache add [ 'bootstrap@^3.3.7', null ]
+18 verbose cache add name=undefined spec="bootstrap@^3.3.7" args=["bootstrap@^3.3.7",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'bootstrap@^3.3.7',
+19 verbose parsed url   path: 'bootstrap@^3.3.7',
+19 verbose parsed url   href: 'bootstrap@^3.3.7' }
+20 verbose already installed skipping grunt-browserify@^5.0.0 C:\Users\Morya Jr\desktop\Freelance_Work\UDSM
+21 verbose already installed skipping grunt-concat-css@^0.3.1 C:\Users\Morya Jr\desktop\Freelance_Work\UDSM
+22 verbose already installed skipping grunt-contrib-clean@^1.0.0 C:\Users\Morya Jr\desktop\Freelance_Work\UDSM
+23 verbose already installed skipping grunt-contrib-concat@^1.0.1 C:\Users\Morya Jr\desktop\Freelance_Work\UDSM
+24 verbose already installed skipping grunt-contrib-cssmin@^1.0.2 C:\Users\Morya Jr\desktop\Freelance_Work\UDSM
+25 verbose already installed skipping grunt-contrib-uglify@^2.0.0 C:\Users\Morya Jr\desktop\Freelance_Work\UDSM
+26 verbose already installed skipping grunt-react@^0.12.3 C:\Users\Morya Jr\desktop\Freelance_Work\UDSM
+27 verbose already installed skipping grunt-run@^0.6.0 C:\Users\Morya Jr\desktop\Freelance_Work\UDSM
+28 verbose cache add name="bootstrap" spec="^3.3.7" args=["bootstrap","^3.3.7"]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: '^3.3.7',
+29 verbose parsed url   path: '^3.3.7',
+29 verbose parsed url   href: '^3.3.7' }
+30 verbose addNamed [ 'bootstrap', '^3.3.7' ]
+31 verbose addNamed [ null, '>=3.3.7-0 <4.0.0-0' ]
+32 silly lockFile 131890fc-bootstrap-3-3-7 bootstrap@^3.3.7
+33 verbose lock bootstrap@^3.3.7 C:\Users\Morya Jr\AppData\Roaming\npm-cache\131890fc-bootstrap-3-3-7.lock
+34 silly addNameRange { name: 'bootstrap',
+34 silly addNameRange   range: '>=3.3.7-0 <4.0.0-0',
+34 silly addNameRange   hasData: false }
+35 verbose request where is /bootstrap
+36 verbose request registry https://registry.npmjs.org/
+37 verbose request id 6360f684d288658f
+38 verbose url raw /bootstrap
+39 verbose url resolving [ 'https://registry.npmjs.org/', './bootstrap' ]
+40 verbose url resolved https://registry.npmjs.org/bootstrap
+41 verbose request where is https://registry.npmjs.org/bootstrap
+42 info trying registry request attempt 1 at 19:36:04
+43 http GET https://registry.npmjs.org/bootstrap
+44 verbose already installed skipping reactify@^1.1.1 C:\Users\Morya Jr\desktop\Freelance_Work\UDSM
+45 http 200 https://registry.npmjs.org/bootstrap
+46 silly registry.get cb [ 200,
+46 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+46 silly registry.get     etag: '"7ZRAOM1O81TNVYDGO5JR3MGNZ"',
+46 silly registry.get     'content-type': 'application/json',
+46 silly registry.get     'content-encoding': 'gzip',
+46 silly registry.get     'cache-control': 'max-age=300',
+46 silly registry.get     'content-length': '10608',
+46 silly registry.get     'accept-ranges': 'bytes',
+46 silly registry.get     date: 'Mon, 31 Oct 2016 02:36:01 GMT',
+46 silly registry.get     via: '1.1 varnish',
+46 silly registry.get     age: '74',
+46 silly registry.get     connection: 'keep-alive',
+46 silly registry.get     'x-served-by': 'cache-sea1927-SEA',
+46 silly registry.get     'x-cache': 'HIT',
+46 silly registry.get     'x-cache-hits': '1',
+46 silly registry.get     'x-timer': 'S1477881361.320866,VS0,VE0',
+46 silly registry.get     vary: 'Accept-Encoding' } ]
+47 silly addNameRange number 2 { name: 'bootstrap', range: '>=3.3.7-0 <4.0.0-0', hasData: true }
+48 silly addNameRange versions [ 'bootstrap',
+48 silly addNameRange   [ '0.0.1',
+48 silly addNameRange     '0.0.2',
+48 silly addNameRange     '3.1.1',
+48 silly addNameRange     '3.2.0',
+48 silly addNameRange     '3.3.0',
+48 silly addNameRange     '3.3.1',
+48 silly addNameRange     '3.3.2',
+48 silly addNameRange     '3.3.4',
+48 silly addNameRange     '3.3.5',
+48 silly addNameRange     '3.3.6',
+48 silly addNameRange     '4.0.0-alpha.2',
+48 silly addNameRange     '3.3.7',
+48 silly addNameRange     '4.0.0-alpha.3',
+48 silly addNameRange     '4.0.0-alpha.4',
+48 silly addNameRange     '4.0.0-alpha.5' ] ]
+49 verbose addNamed [ 'bootstrap', '3.3.7' ]
+50 verbose addNamed [ '3.3.7', '3.3.7' ]
+51 silly lockFile 7976a4e0-bootstrap-3-3-7 bootstrap@3.3.7
+52 verbose lock bootstrap@3.3.7 C:\Users\Morya Jr\AppData\Roaming\npm-cache\7976a4e0-bootstrap-3-3-7.lock
+53 silly lockFile c393c01f-rg-bootstrap-bootstrap-3-3-7-tgz https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz
+54 verbose lock https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz C:\Users\Morya Jr\AppData\Roaming\npm-cache\c393c01f-rg-bootstrap-bootstrap-3-3-7-tgz.lock
+55 verbose addRemoteTarball [ 'https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz',
+55 verbose addRemoteTarball   '5a389394549f23330875a3b150656574f8a9eb71' ]
+56 info retry fetch attempt 1 at 19:36:05
+57 verbose fetch to= C:\Users\MORYAJ~1\AppData\Local\Temp\npm-6456-ltR-uG+x\registry.npmjs.org\bootstrap\-\bootstrap-3.3.7.tgz
+58 http GET https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz
+59 http 200 https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz
+60 silly lockFile c393c01f-rg-bootstrap-bootstrap-3-3-7-tgz https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz
+61 silly lockFile c393c01f-rg-bootstrap-bootstrap-3-3-7-tgz https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz
+62 silly lockFile 7976a4e0-bootstrap-3-3-7 bootstrap@3.3.7
+63 silly lockFile 7976a4e0-bootstrap-3-3-7 bootstrap@3.3.7
+64 silly lockFile 131890fc-bootstrap-3-3-7 bootstrap@^3.3.7
+65 silly lockFile 131890fc-bootstrap-3-3-7 bootstrap@^3.3.7
+66 silly resolved [ { name: 'bootstrap',
+66 silly resolved     description: 'The most popular front-end framework for developing responsive, mobile first projects on the web.',
+66 silly resolved     version: '3.3.7',
+66 silly resolved     keywords:
+66 silly resolved      [ 'css',
+66 silly resolved        'less',
+66 silly resolved        'mobile-first',
+66 silly resolved        'responsive',
+66 silly resolved        'front-end',
+66 silly resolved        'framework',
+66 silly resolved        'web' ],
+66 silly resolved     homepage: 'http://getbootstrap.com',
+66 silly resolved     author: { name: 'Twitter, Inc.' },
+66 silly resolved     scripts:
+66 silly resolved      { 'change-version': 'node grunt/change-version.js',
+66 silly resolved        'update-shrinkwrap': 'npm shrinkwrap --dev && shx mv ./npm-shrinkwrap.json ./grunt/npm-shrinkwrap.json',
+66 silly resolved        test: 'grunt test' },
+66 silly resolved     style: 'dist/css/bootstrap.css',
+66 silly resolved     less: 'less/bootstrap.less',
+66 silly resolved     main: './dist/js/npm',
+66 silly resolved     repository:
+66 silly resolved      { type: 'git',
+66 silly resolved        url: 'git+https://github.com/twbs/bootstrap.git' },
+66 silly resolved     bugs: { url: 'https://github.com/twbs/bootstrap/issues' },
+66 silly resolved     license: 'MIT',
+66 silly resolved     devDependencies:
+66 silly resolved      { btoa: '~1.1.2',
+66 silly resolved        glob: '~7.0.3',
+66 silly resolved        grunt: '~1.0.1',
+66 silly resolved        'grunt-autoprefixer': '~3.0.4',
+66 silly resolved        'grunt-contrib-clean': '~1.0.0',
+66 silly resolved        'grunt-contrib-compress': '~1.3.0',
+66 silly resolved        'grunt-contrib-concat': '~1.0.0',
+66 silly resolved        'grunt-contrib-connect': '~1.0.0',
+66 silly resolved        'grunt-contrib-copy': '~1.0.0',
+66 silly resolved        'grunt-contrib-csslint': '~1.0.0',
+66 silly resolved        'grunt-contrib-cssmin': '~1.0.0',
+66 silly resolved        'grunt-contrib-htmlmin': '~1.5.0',
+66 silly resolved        'grunt-contrib-jshint': '~1.0.0',
+66 silly resolved        'grunt-contrib-less': '~1.3.0',
+66 silly resolved        'grunt-contrib-pug': '~1.0.0',
+66 silly resolved        'grunt-contrib-qunit': '~0.7.0',
+66 silly resolved        'grunt-contrib-uglify': '~1.0.0',
+66 silly resolved        'grunt-contrib-watch': '~1.0.0',
+66 silly resolved        'grunt-csscomb': '~3.1.0',
+66 silly resolved        'grunt-exec': '~1.0.0',
+66 silly resolved        'grunt-html': '~8.0.1',
+66 silly resolved        'grunt-jekyll': '~0.4.4',
+66 silly resolved        'grunt-jscs': '~3.0.1',
+66 silly resolved        'grunt-saucelabs': '~9.0.0',
+66 silly resolved        'load-grunt-tasks': '~3.5.0',
+66 silly resolved        'markdown-it': '^7.0.0',
+66 silly resolved        shelljs: '^0.7.0',
+66 silly resolved        shx: '^0.1.2',
+66 silly resolved        'time-grunt': '^1.3.0' },
+66 silly resolved     engines: { node: '>=0.10.1' },
+66 silly resolved     files:
+66 silly resolved      [ 'dist',
+66 silly resolved        'fonts',
+66 silly resolved        'grunt',
+66 silly resolved        'js/*.js',
+66 silly resolved        'less/**/*.less',
+66 silly resolved        'Gruntfile.js',
+66 silly resolved        'LICENSE' ],
+66 silly resolved     jspm: { main: 'js/bootstrap', shim: [Object], files: [Object] },
+66 silly resolved     gitHead: '0b9c4a4007c44201dce9a6cc1a38407005c26c86',
+66 silly resolved     _id: 'bootstrap@3.3.7',
+66 silly resolved     _shasum: '5a389394549f23330875a3b150656574f8a9eb71',
+66 silly resolved     _from: 'bootstrap@^3.3.7',
+66 silly resolved     _npmVersion: '2.15.8',
+66 silly resolved     _nodeVersion: '4.4.7',
+66 silly resolved     _npmUser: { name: 'twbs', email: 'getbootstrap@gmail.com' },
+66 silly resolved     dist:
+66 silly resolved      { shasum: '5a389394549f23330875a3b150656574f8a9eb71',
+66 silly resolved        tarball: 'https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz' },
+66 silly resolved     maintainers: [ [Object] ],
+66 silly resolved     _npmOperationalInternal:
+66 silly resolved      { host: 'packages-16-east.internal.npmjs.com',
+66 silly resolved        tmp: 'tmp/bootstrap-3.3.7.tgz_1469462979154_0.42421583621762693' },
+66 silly resolved     directories: {},
+66 silly resolved     _resolved: 'https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz' } ]
+67 info install bootstrap@3.3.7 into C:\Users\Morya Jr\desktop\Freelance_Work\UDSM
+68 info installOne bootstrap@3.3.7
+69 verbose node_modules\bootstrap unbuild
+70 verbose tar unpack C:\Users\Morya Jr\AppData\Roaming\npm-cache\bootstrap\3.3.7\package.tgz
+71 silly lockFile 27d4f880-Work-UDSM-node-modules-bootstrap tar://C:\Users\Morya Jr\desktop\Freelance_Work\UDSM\node_modules\bootstrap
+72 verbose lock tar://C:\Users\Morya Jr\desktop\Freelance_Work\UDSM\node_modules\bootstrap C:\Users\Morya Jr\AppData\Roaming\npm-cache\27d4f880-Work-UDSM-node-modules-bootstrap.lock
+73 silly lockFile bada0fe3-ache-bootstrap-3-3-7-package-tgz tar://C:\Users\Morya Jr\AppData\Roaming\npm-cache\bootstrap\3.3.7\package.tgz
+74 verbose lock tar://C:\Users\Morya Jr\AppData\Roaming\npm-cache\bootstrap\3.3.7\package.tgz C:\Users\Morya Jr\AppData\Roaming\npm-cache\bada0fe3-ache-bootstrap-3-3-7-package-tgz.lock
+75 silly gunzTarPerm modes [ '777', '666' ]
+76 silly gunzTarPerm extractEntry package.json
+77 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+78 silly gunzTarPerm extractEntry README.md
+79 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+80 silly gunzTarPerm extractEntry LICENSE
+81 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+82 silly gunzTarPerm extractEntry Gruntfile.js
+83 silly gunzTarPerm modified mode [ 'Gruntfile.js', 420, 438 ]
+84 silly gunzTarPerm extractEntry CHANGELOG.md
+85 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+86 silly gunzTarPerm extractEntry dist/css/bootstrap-theme.css
+87 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-theme.css', 420, 438 ]
+88 silly gunzTarPerm extractEntry dist/css/bootstrap-theme.css.map
+89 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-theme.css.map', 420, 438 ]
+90 silly gunzTarPerm extractEntry dist/css/bootstrap-theme.min.css
+91 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-theme.min.css', 420, 438 ]
+92 silly gunzTarPerm extractEntry dist/css/bootstrap-theme.min.css.map
+93 silly gunzTarPerm modified mode [ 'dist/css/bootstrap-theme.min.css.map', 420, 438 ]
+94 silly gunzTarPerm extractEntry dist/css/bootstrap.css
+95 silly gunzTarPerm modified mode [ 'dist/css/bootstrap.css', 420, 438 ]
+96 silly gunzTarPerm extractEntry dist/css/bootstrap.css.map
+97 silly gunzTarPerm modified mode [ 'dist/css/bootstrap.css.map', 420, 438 ]
+98 silly gunzTarPerm extractEntry dist/css/bootstrap.min.css
+99 silly gunzTarPerm modified mode [ 'dist/css/bootstrap.min.css', 420, 438 ]
+100 silly gunzTarPerm extractEntry dist/css/bootstrap.min.css.map
+101 silly gunzTarPerm modified mode [ 'dist/css/bootstrap.min.css.map', 420, 438 ]
+102 silly gunzTarPerm extractEntry dist/fonts/glyphicons-halflings-regular.eot
+103 silly gunzTarPerm modified mode [ 'dist/fonts/glyphicons-halflings-regular.eot', 420, 438 ]
+104 silly gunzTarPerm extractEntry dist/fonts/glyphicons-halflings-regular.svg
+105 silly gunzTarPerm modified mode [ 'dist/fonts/glyphicons-halflings-regular.svg', 420, 438 ]
+106 silly gunzTarPerm extractEntry dist/fonts/glyphicons-halflings-regular.ttf
+107 silly gunzTarPerm modified mode [ 'dist/fonts/glyphicons-halflings-regular.ttf', 420, 438 ]
+108 silly gunzTarPerm extractEntry dist/fonts/glyphicons-halflings-regular.woff
+109 silly gunzTarPerm modified mode [ 'dist/fonts/glyphicons-halflings-regular.woff', 420, 438 ]
+110 silly gunzTarPerm extractEntry dist/fonts/glyphicons-halflings-regular.woff2
+111 silly gunzTarPerm modified mode [ 'dist/fonts/glyphicons-halflings-regular.woff2', 420, 438 ]
+112 silly gunzTarPerm extractEntry dist/js/bootstrap.js
+113 silly gunzTarPerm modified mode [ 'dist/js/bootstrap.js', 420, 438 ]
+114 silly gunzTarPerm extractEntry dist/js/bootstrap.min.js
+115 silly gunzTarPerm modified mode [ 'dist/js/bootstrap.min.js', 420, 438 ]
+116 silly gunzTarPerm extractEntry dist/js/npm.js
+117 silly gunzTarPerm modified mode [ 'dist/js/npm.js', 420, 438 ]
+118 silly gunzTarPerm extractEntry fonts/glyphicons-halflings-regular.eot
+119 silly gunzTarPerm modified mode [ 'fonts/glyphicons-halflings-regular.eot', 420, 438 ]
+120 silly gunzTarPerm extractEntry fonts/glyphicons-halflings-regular.svg
+121 silly gunzTarPerm modified mode [ 'fonts/glyphicons-halflings-regular.svg', 420, 438 ]
+122 silly gunzTarPerm extractEntry fonts/glyphicons-halflings-regular.ttf
+123 silly gunzTarPerm modified mode [ 'fonts/glyphicons-halflings-regular.ttf', 420, 438 ]
+124 silly gunzTarPerm extractEntry fonts/glyphicons-halflings-regular.woff
+125 silly gunzTarPerm modified mode [ 'fonts/glyphicons-halflings-regular.woff', 420, 438 ]
+126 silly gunzTarPerm extractEntry fonts/glyphicons-halflings-regular.woff2
+127 silly gunzTarPerm modified mode [ 'fonts/glyphicons-halflings-regular.woff2', 420, 438 ]
+128 silly gunzTarPerm extractEntry grunt/bs-commonjs-generator.js
+129 silly gunzTarPerm modified mode [ 'grunt/bs-commonjs-generator.js', 420, 438 ]
+130 silly gunzTarPerm extractEntry grunt/bs-glyphicons-data-generator.js
+131 silly gunzTarPerm modified mode [ 'grunt/bs-glyphicons-data-generator.js', 420, 438 ]
+132 silly gunzTarPerm extractEntry grunt/bs-lessdoc-parser.js
+133 silly gunzTarPerm modified mode [ 'grunt/bs-lessdoc-parser.js', 420, 438 ]
+134 silly gunzTarPerm extractEntry grunt/bs-raw-files-generator.js
+135 silly gunzTarPerm modified mode [ 'grunt/bs-raw-files-generator.js', 420, 438 ]
+136 silly gunzTarPerm extractEntry grunt/change-version.js
+137 silly gunzTarPerm modified mode [ 'grunt/change-version.js', 493, 511 ]
+138 silly gunzTarPerm extractEntry grunt/.jshintrc
+139 silly gunzTarPerm modified mode [ 'grunt/.jshintrc', 420, 438 ]
+140 silly gunzTarPerm extractEntry grunt/configBridge.json
+141 silly gunzTarPerm modified mode [ 'grunt/configBridge.json', 420, 438 ]
+142 silly gunzTarPerm extractEntry grunt/npm-shrinkwrap.json
+143 silly gunzTarPerm modified mode [ 'grunt/npm-shrinkwrap.json', 420, 438 ]
+144 silly gunzTarPerm extractEntry grunt/sauce_browsers.yml
+145 silly gunzTarPerm modified mode [ 'grunt/sauce_browsers.yml', 420, 438 ]
+146 silly gunzTarPerm extractEntry js/affix.js
+147 silly gunzTarPerm modified mode [ 'js/affix.js', 420, 438 ]
+148 silly gunzTarPerm extractEntry js/button.js
+149 silly gunzTarPerm modified mode [ 'js/button.js', 420, 438 ]
+150 silly gunzTarPerm extractEntry js/carousel.js
+151 silly gunzTarPerm modified mode [ 'js/carousel.js', 420, 438 ]
+152 silly gunzTarPerm extractEntry js/collapse.js
+153 silly gunzTarPerm modified mode [ 'js/collapse.js', 420, 438 ]
+154 silly gunzTarPerm extractEntry js/dropdown.js
+155 silly gunzTarPerm modified mode [ 'js/dropdown.js', 420, 438 ]
+156 silly gunzTarPerm extractEntry js/alert.js
+157 silly gunzTarPerm modified mode [ 'js/alert.js', 420, 438 ]
+158 silly gunzTarPerm extractEntry js/popover.js
+159 silly gunzTarPerm modified mode [ 'js/popover.js', 420, 438 ]
+160 silly gunzTarPerm extractEntry js/scrollspy.js
+161 silly gunzTarPerm modified mode [ 'js/scrollspy.js', 420, 438 ]
+162 silly gunzTarPerm extractEntry js/tab.js
+163 silly gunzTarPerm modified mode [ 'js/tab.js', 420, 438 ]
+164 silly gunzTarPerm extractEntry js/tooltip.js
+165 silly gunzTarPerm modified mode [ 'js/tooltip.js', 420, 438 ]
+166 silly gunzTarPerm extractEntry js/transition.js
+167 silly gunzTarPerm modified mode [ 'js/transition.js', 420, 438 ]
+168 silly gunzTarPerm extractEntry js/modal.js
+169 silly gunzTarPerm modified mode [ 'js/modal.js', 420, 438 ]
+170 silly gunzTarPerm extractEntry less/mixins.less
+171 silly gunzTarPerm modified mode [ 'less/mixins.less', 420, 438 ]
+172 silly gunzTarPerm extractEntry less/alerts.less
+173 silly gunzTarPerm modified mode [ 'less/alerts.less', 420, 438 ]
+174 silly gunzTarPerm extractEntry less/badges.less
+175 silly gunzTarPerm modified mode [ 'less/badges.less', 420, 438 ]
+176 silly gunzTarPerm extractEntry less/bootstrap.less
+177 silly gunzTarPerm modified mode [ 'less/bootstrap.less', 420, 438 ]
+178 silly gunzTarPerm extractEntry less/breadcrumbs.less
+179 silly gunzTarPerm modified mode [ 'less/breadcrumbs.less', 420, 438 ]
+180 silly gunzTarPerm extractEntry less/button-groups.less
+181 silly gunzTarPerm modified mode [ 'less/button-groups.less', 420, 438 ]
+182 silly gunzTarPerm extractEntry less/buttons.less
+183 silly gunzTarPerm modified mode [ 'less/buttons.less', 420, 438 ]
+184 silly gunzTarPerm extractEntry less/carousel.less
+185 silly gunzTarPerm modified mode [ 'less/carousel.less', 420, 438 ]
+186 silly gunzTarPerm extractEntry less/close.less
+187 silly gunzTarPerm modified mode [ 'less/close.less', 420, 438 ]
+188 silly gunzTarPerm extractEntry less/code.less
+189 silly gunzTarPerm modified mode [ 'less/code.less', 420, 438 ]
+190 silly gunzTarPerm extractEntry less/component-animations.less
+191 silly gunzTarPerm modified mode [ 'less/component-animations.less', 420, 438 ]
+192 silly gunzTarPerm extractEntry less/dropdowns.less
+193 silly gunzTarPerm modified mode [ 'less/dropdowns.less', 420, 438 ]
+194 silly gunzTarPerm extractEntry less/forms.less
+195 silly gunzTarPerm modified mode [ 'less/forms.less', 420, 438 ]
+196 silly gunzTarPerm extractEntry less/glyphicons.less
+197 silly gunzTarPerm modified mode [ 'less/glyphicons.less', 420, 438 ]
+198 silly gunzTarPerm extractEntry less/grid.less
+199 silly gunzTarPerm modified mode [ 'less/grid.less', 420, 438 ]
+200 silly gunzTarPerm extractEntry less/input-groups.less
+201 silly gunzTarPerm modified mode [ 'less/input-groups.less', 420, 438 ]
+202 silly gunzTarPerm extractEntry less/jumbotron.less
+203 silly gunzTarPerm modified mode [ 'less/jumbotron.less', 420, 438 ]
+204 silly gunzTarPerm extractEntry less/labels.less
+205 silly gunzTarPerm modified mode [ 'less/labels.less', 420, 438 ]
+206 silly gunzTarPerm extractEntry less/list-group.less
+207 silly gunzTarPerm modified mode [ 'less/list-group.less', 420, 438 ]
+208 silly gunzTarPerm extractEntry less/media.less
+209 silly gunzTarPerm modified mode [ 'less/media.less', 420, 438 ]
+210 silly gunzTarPerm extractEntry less/mixins/nav-vertical-align.less
+211 silly gunzTarPerm modified mode [ 'less/mixins/nav-vertical-align.less', 420, 438 ]
+212 silly gunzTarPerm extractEntry less/mixins/alerts.less
+213 silly gunzTarPerm modified mode [ 'less/mixins/alerts.less', 420, 438 ]
+214 silly gunzTarPerm extractEntry less/mixins/border-radius.less
+215 silly gunzTarPerm modified mode [ 'less/mixins/border-radius.less', 420, 438 ]
+216 silly gunzTarPerm extractEntry less/mixins/buttons.less
+217 silly gunzTarPerm modified mode [ 'less/mixins/buttons.less', 420, 438 ]
+218 silly gunzTarPerm extractEntry less/mixins/center-block.less
+219 silly gunzTarPerm modified mode [ 'less/mixins/center-block.less', 420, 438 ]
+220 silly gunzTarPerm extractEntry less/mixins/clearfix.less
+221 silly gunzTarPerm modified mode [ 'less/mixins/clearfix.less', 420, 438 ]
+222 silly gunzTarPerm extractEntry less/mixins/forms.less
+223 silly gunzTarPerm modified mode [ 'less/mixins/forms.less', 420, 438 ]
+224 silly gunzTarPerm extractEntry less/mixins/gradients.less
+225 silly gunzTarPerm modified mode [ 'less/mixins/gradients.less', 420, 438 ]
+226 silly gunzTarPerm extractEntry less/mixins/grid-framework.less
+227 silly gunzTarPerm modified mode [ 'less/mixins/grid-framework.less', 420, 438 ]
+228 silly gunzTarPerm extractEntry less/mixins/grid.less
+229 silly gunzTarPerm modified mode [ 'less/mixins/grid.less', 420, 438 ]
+230 silly gunzTarPerm extractEntry less/mixins/hide-text.less
+231 silly gunzTarPerm modified mode [ 'less/mixins/hide-text.less', 420, 438 ]
+232 silly gunzTarPerm extractEntry less/mixins/image.less
+233 silly gunzTarPerm modified mode [ 'less/mixins/image.less', 420, 438 ]
+234 silly gunzTarPerm extractEntry less/mixins/labels.less
+235 silly gunzTarPerm modified mode [ 'less/mixins/labels.less', 420, 438 ]
+236 silly gunzTarPerm extractEntry less/mixins/list-group.less
+237 silly gunzTarPerm modified mode [ 'less/mixins/list-group.less', 420, 438 ]
+238 silly gunzTarPerm extractEntry less/mixins/nav-divider.less
+239 silly gunzTarPerm modified mode [ 'less/mixins/nav-divider.less', 420, 438 ]
+240 silly gunzTarPerm extractEntry less/mixins/background-variant.less
+241 silly gunzTarPerm modified mode [ 'less/mixins/background-variant.less', 420, 438 ]
+242 silly gunzTarPerm extractEntry less/mixins/opacity.less
+243 silly gunzTarPerm modified mode [ 'less/mixins/opacity.less', 420, 438 ]
+244 silly gunzTarPerm extractEntry less/mixins/pagination.less
+245 silly gunzTarPerm modified mode [ 'less/mixins/pagination.less', 420, 438 ]
+246 silly gunzTarPerm extractEntry less/mixins/panels.less
+247 silly gunzTarPerm modified mode [ 'less/mixins/panels.less', 420, 438 ]
+248 silly gunzTarPerm extractEntry less/mixins/progress-bar.less
+249 silly gunzTarPerm modified mode [ 'less/mixins/progress-bar.less', 420, 438 ]
+250 silly gunzTarPerm extractEntry less/mixins/reset-filter.less
+251 silly gunzTarPerm modified mode [ 'less/mixins/reset-filter.less', 420, 438 ]
+252 silly gunzTarPerm extractEntry less/mixins/reset-text.less
+253 silly gunzTarPerm modified mode [ 'less/mixins/reset-text.less', 420, 438 ]
+254 silly gunzTarPerm extractEntry less/mixins/resize.less
+255 silly gunzTarPerm modified mode [ 'less/mixins/resize.less', 420, 438 ]
+256 silly gunzTarPerm extractEntry less/mixins/responsive-visibility.less
+257 silly gunzTarPerm modified mode [ 'less/mixins/responsive-visibility.less', 420, 438 ]
+258 silly gunzTarPerm extractEntry less/mixins/size.less
+259 silly gunzTarPerm modified mode [ 'less/mixins/size.less', 420, 438 ]
+260 silly gunzTarPerm extractEntry less/mixins/tab-focus.less
+261 silly gunzTarPerm modified mode [ 'less/mixins/tab-focus.less', 420, 438 ]
+262 silly gunzTarPerm extractEntry less/mixins/table-row.less
+263 silly gunzTarPerm modified mode [ 'less/mixins/table-row.less', 420, 438 ]
+264 silly gunzTarPerm extractEntry less/mixins/text-emphasis.less
+265 silly gunzTarPerm modified mode [ 'less/mixins/text-emphasis.less', 420, 438 ]
+266 silly gunzTarPerm extractEntry less/mixins/text-overflow.less
+267 silly gunzTarPerm modified mode [ 'less/mixins/text-overflow.less', 420, 438 ]
+268 silly gunzTarPerm extractEntry less/mixins/vendor-prefixes.less
+269 silly gunzTarPerm modified mode [ 'less/mixins/vendor-prefixes.less', 420, 438 ]
+270 silly gunzTarPerm extractEntry less/modals.less
+271 silly gunzTarPerm modified mode [ 'less/modals.less', 420, 438 ]
+272 silly gunzTarPerm extractEntry less/navbar.less
+273 silly gunzTarPerm modified mode [ 'less/navbar.less', 420, 438 ]
+274 silly gunzTarPerm extractEntry less/navs.less
+275 silly gunzTarPerm modified mode [ 'less/navs.less', 420, 438 ]
+276 silly gunzTarPerm extractEntry less/normalize.less
+277 silly gunzTarPerm modified mode [ 'less/normalize.less', 420, 438 ]
+278 silly gunzTarPerm extractEntry less/pager.less
+279 silly gunzTarPerm modified mode [ 'less/pager.less', 420, 438 ]
+280 silly gunzTarPerm extractEntry less/pagination.less
+281 silly gunzTarPerm modified mode [ 'less/pagination.less', 420, 438 ]
+282 silly gunzTarPerm extractEntry less/panels.less
+283 silly gunzTarPerm modified mode [ 'less/panels.less', 420, 438 ]
+284 silly gunzTarPerm extractEntry less/popovers.less
+285 silly gunzTarPerm modified mode [ 'less/popovers.less', 420, 438 ]
+286 silly gunzTarPerm extractEntry less/print.less
+287 silly gunzTarPerm modified mode [ 'less/print.less', 420, 438 ]
+288 silly gunzTarPerm extractEntry less/progress-bars.less
+289 silly gunzTarPerm modified mode [ 'less/progress-bars.less', 420, 438 ]
+290 silly gunzTarPerm extractEntry less/responsive-embed.less
+291 silly gunzTarPerm modified mode [ 'less/responsive-embed.less', 420, 438 ]
+292 silly gunzTarPerm extractEntry less/responsive-utilities.less
+293 silly gunzTarPerm modified mode [ 'less/responsive-utilities.less', 420, 438 ]
+294 silly gunzTarPerm extractEntry less/scaffolding.less
+295 silly gunzTarPerm modified mode [ 'less/scaffolding.less', 420, 438 ]
+296 silly gunzTarPerm extractEntry less/tables.less
+297 silly gunzTarPerm modified mode [ 'less/tables.less', 420, 438 ]
+298 silly gunzTarPerm extractEntry less/theme.less
+299 silly gunzTarPerm modified mode [ 'less/theme.less', 420, 438 ]
+300 silly gunzTarPerm extractEntry less/thumbnails.less
+301 silly gunzTarPerm modified mode [ 'less/thumbnails.less', 420, 438 ]
+302 silly gunzTarPerm extractEntry less/tooltip.less
+303 silly gunzTarPerm modified mode [ 'less/tooltip.less', 420, 438 ]
+304 silly gunzTarPerm extractEntry less/type.less
+305 silly gunzTarPerm modified mode [ 'less/type.less', 420, 438 ]
+306 silly gunzTarPerm extractEntry less/utilities.less
+307 silly gunzTarPerm modified mode [ 'less/utilities.less', 420, 438 ]
+308 silly gunzTarPerm extractEntry less/variables.less
+309 silly gunzTarPerm modified mode [ 'less/variables.less', 420, 438 ]
+310 silly gunzTarPerm extractEntry less/wells.less
+311 silly gunzTarPerm modified mode [ 'less/wells.less', 420, 438 ]
+312 silly lockFile 27d4f880-Work-UDSM-node-modules-bootstrap tar://C:\Users\Morya Jr\desktop\Freelance_Work\UDSM\node_modules\bootstrap
+313 silly lockFile 27d4f880-Work-UDSM-node-modules-bootstrap tar://C:\Users\Morya Jr\desktop\Freelance_Work\UDSM\node_modules\bootstrap
+314 silly lockFile bada0fe3-ache-bootstrap-3-3-7-package-tgz tar://C:\Users\Morya Jr\AppData\Roaming\npm-cache\bootstrap\3.3.7\package.tgz
+315 silly lockFile bada0fe3-ache-bootstrap-3-3-7-package-tgz tar://C:\Users\Morya Jr\AppData\Roaming\npm-cache\bootstrap\3.3.7\package.tgz
+316 info preinstall bootstrap@3.3.7
+317 verbose readDependencies using package.json deps
+318 verbose readDependencies using package.json deps
+319 silly resolved []
+320 verbose about to build C:\Users\Morya Jr\desktop\Freelance_Work\UDSM\node_modules\bootstrap
+321 info build C:\Users\Morya Jr\desktop\Freelance_Work\UDSM\node_modules\bootstrap
+322 verbose linkStuff [ false,
+322 verbose linkStuff   false,
+322 verbose linkStuff   false,
+322 verbose linkStuff   'C:\\Users\\Morya Jr\\desktop\\Freelance_Work\\UDSM\\node_modules' ]
+323 info linkStuff bootstrap@3.3.7
+324 verbose linkBins bootstrap@3.3.7
+325 verbose linkMans bootstrap@3.3.7
+326 verbose rebuildBundles bootstrap@3.3.7
+327 info install bootstrap@3.3.7
+328 info postinstall bootstrap@3.3.7
+329 info build C:\Users\Morya Jr\desktop\Freelance_Work\UDSM
+330 verbose linkStuff [ false,
+330 verbose linkStuff   false,
+330 verbose linkStuff   false,
+330 verbose linkStuff   'C:\\Users\\Morya Jr\\desktop\\Freelance_Work' ]
+331 info linkStuff udsm@1.0.0
+332 verbose linkBins udsm@1.0.0
+333 verbose linkMans udsm@1.0.0
+334 verbose rebuildBundles udsm@1.0.0
+335 verbose rebuildBundles [ '.bin',
+335 verbose rebuildBundles   'body-parser',
+335 verbose rebuildBundles   'bootstrap',
+335 verbose rebuildBundles   'ejs',
+335 verbose rebuildBundles   'express',
+335 verbose rebuildBundles   'grunt',
+335 verbose rebuildBundles   'grunt-browserify',
+335 verbose rebuildBundles   'grunt-concat-css',
+335 verbose rebuildBundles   'grunt-contrib-clean',
+335 verbose rebuildBundles   'grunt-contrib-concat',
+335 verbose rebuildBundles   'grunt-contrib-cssmin',
+335 verbose rebuildBundles   'grunt-contrib-uglify',
+335 verbose rebuildBundles   'grunt-react',
+335 verbose rebuildBundles   'grunt-run',
+335 verbose rebuildBundles   'lodash',
+335 verbose rebuildBundles   'path',
+335 verbose rebuildBundles   'react',
+335 verbose rebuildBundles   'react-dom',
+335 verbose rebuildBundles   'reactify' ]
+336 info install udsm@1.0.0
+337 info postinstall udsm@1.0.0
+338 info prepublish udsm@1.0.0
+339 error peerinvalid The package grunt does not satisfy its siblings' peerDependencies requirements!
+339 error peerinvalid Peer grunt-concat-css@0.3.1 wants grunt@~0.4.1
+339 error peerinvalid Peer grunt-contrib-clean@1.0.0 wants grunt@>= 0.4.5
+339 error peerinvalid Peer grunt-contrib-concat@1.0.1 wants grunt@>=0.4.0
+339 error peerinvalid Peer grunt-react@0.12.3 wants grunt@~0.4.2
+339 error peerinvalid Peer grunt-run@0.6.0 wants grunt@>=0.4.0
+340 error System Windows_NT 6.2.9200
+341 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+342 error cwd C:\Users\Morya Jr\desktop\Freelance_Work\UDSM
+343 error node -v v0.10.33
+344 error npm -v 1.4.28
+345 error code EPEERINVALID
+346 verbose exit [ 1, true ]
