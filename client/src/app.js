@@ -19,6 +19,7 @@ var React = require("react"),
     News = require("./components/News"),
     About = require("./components/About"),
     Work = require("./components/Work"),
+    Contact = require("./components/Contact"),
     Donate = require("./components/Donate");
 
 window.React = React;
@@ -38,6 +39,9 @@ if (window.location.pathname) {
             break;
         case "work":
             ReactDOM.render(<Work />, main);
+            break;
+        case "contact":
+            ReactDOM.render(<Contact />, main);
             break;
         case "donate":
             ReactDOM.render(<Donate />, main);

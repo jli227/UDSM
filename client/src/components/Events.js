@@ -42,7 +42,7 @@ var Events = React.createClass({
                                 }
                             </div> : <span />
                         }
-                        { section.link ? <a className="btn btn-default" href={section.link.link}>{section.link.title}</a> : <span />}
+                        { section.link ? <a className="btn btn-default" href={section.link.link} target="_blank">{section.link.title}</a> : <span />}
                     </section>
                     <hr/>
                 </div>

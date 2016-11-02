@@ -1,7 +1,7 @@
 module.exports = {
     "title": "University District Street Medicine",
     "titleDesc": "Addressing the need for quality healthcare for homeless individuals",
-    "link" : {"title": "LEARN MORE", "link": "about"},
+    "link" : {"title": "LEARN MORE", "link": "work"},
     "sections": [
         {
             "body": "University District Street Medicine (UDSM) is a student-run, " +
