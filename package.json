@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is a general website template that uses configuration templates to plug in data.",
   "scripts": {
-    "test": "grunt test"
+    "start": "node serve.js"
   },
   "repository": {
     "type": "git",
