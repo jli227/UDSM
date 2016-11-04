@@ -65,18 +65,17 @@ h3 {
 section {
     padding-top: 2%;
     padding-bottom: 2%;
-    /*margin-top: 2%;
-    margin-bottom: 5%;*/
     text-align: center;
     border-bottom: 3px solid #eee;
 }
 
-#top {
+.top {
     height: 500px;
 }
 
 .subsection {
     min-height: 300px;
+    overflow: auto;
 }
 
 hr {
@@ -128,15 +127,33 @@ footer {
 #month-list {
     list-style: none;
     text-align: left;
+    margin-bottom: 4%;
+}
+
+div ul li a {
     color: gray;
 }
 
+
 #calendar-title {
+    float: left;
     text-align: left;
     padding-left: 4%;
     padding-bottom: .1%;
+    width: 20%;
+}
+
+#events-title {
+    float: left;
+    width: 80%;
 }
 
 #events {
-    height: 535px;
+    text-align: left;
+    margin-top: 0;
+}
+
+.calendar {
+    text-align: left;
+    padding-left: 4%;
 }
