@@ -49,10 +49,11 @@ hr {
 .titleSection {
     height: 80vh;
     padding-top: 25vh;
+    text-align: center;
 }
 
 .section {
-    padding: 100px 50px;
+    padding: 100px;
     text-align: center;
 }
 
@@ -76,4 +77,41 @@ h2 {
 .btn-default {
     background-color: #777;
     color: #FFF;
+}
+.out_goals {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    list-style-position: inside;
+}
+
+#month-list {
+    list-style: none;
+    text-align: left;
+    color: gray;
+}
+
+#calendar-title {
+    text-align: left;
+    padding-left: 4%;
+    padding-bottom: .1%;
+}
+
+.month-list {
+    list-style: none;
+    text-align: left;
+    color: gray;
+}
+
+.calendar-title {
+    text-align: left;
+    padding-left: 4%;
+    padding-bottom: .1%;
+}
+
+a {
+    color: gray;
+}
+
+.mini {
+    padding-top: 4%;
 }

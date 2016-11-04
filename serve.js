@@ -20,8 +20,6 @@ app.get("/*", function (req, res) {
     res.status(200).render("../client/index.ejs");
 });
 
-//app.use("/api", require("./api"));
-
 var server = http.createServer(app),
 port = process.env.PORT || 8080;
 

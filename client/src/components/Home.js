@@ -20,12 +20,23 @@ var Home = React.createClass({
                 </div>
             );
         });
+        
+        var partners = _.map(config.partners, function (partner, idx) {
+            return (
+                <div key={ partner + idx} className="col-sm-offset-1 col-sm-2" style={{ height: "200px" }}>
+                    <img style={{ maxWidth: "200px", maxHeight: "200px", verticalAlign: "center" }} src={ "../assets/partners/" + partner + ".png"} />
+                </div>
+            );
+        });
 
         return (
             <div>
                 <section className="titleSection">
                     <h1>{config.title}</h1>
                     <h5>{config.titleDesc}</h5>
+                    <div className="col-xs-12">
+                        <a href={config.link.link} className="btn btn-default">{config.link.title}</a>
+                    </div>
                 </section>
 
                 <hr/>
@@ -64,8 +75,16 @@ var Home = React.createClass({
                 </section>
                 
                 <hr/>
+                <section className="section">
 
+                </section>
                 { sections }
+                
+                <section className="section">
+                    { partners }
+                </section>
+                
+                <hr/>
             </div>
         );
     }

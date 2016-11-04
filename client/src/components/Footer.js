@@ -10,7 +10,7 @@ var Footer = React.createClass({
         return (
             <footer className="footer">
                 <div className="container text-center">
-                    <h4 className="text-muted">UDSMVOLUNTEER@GMAIL.COM</h4>
+                    <h4 className="text-muted"><a href="mailto:UDSMVOLUNTEER@GMAIL.COM">UDSMVOLUNTEER@GMAIL.COM</a></h4>
                     <p className="text-muted"><a href="https://www.facebook.com">FACEBOOK</a></p>
                 </div>
             </footer>
