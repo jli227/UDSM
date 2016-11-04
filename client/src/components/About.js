@@ -4,7 +4,8 @@
 
 var React = require("react"),
     _ = require("lodash"),
-    config = require("../../../config/config.about");
+    // not used currently
+    config = require("../../../config/config.general");
 
 var About = React.createClass({
     render: function () {
