@@ -12,7 +12,7 @@ var Work = React.createClass({
             return (
                 <div key={ section + idx }>
                     <section className="section">
-                        <div className="col-sm-6 col-sm-offset-3">
+                        <div className="col-sm-10 col-sm-offset-1">
                             { section.header ? <h2>{section.header}</h2> : <span />}
                             { section.body ? <p>{section.body}</p> : <span />}
                             { section.header2 ? <h2>{section.header2}</h2> : <span />}
@@ -40,7 +40,7 @@ var Work = React.createClass({
                                 <ul>
                                     {
                                         _.map(section.list2, function (item, idx) {
-                                            return (<li className="moderate col-xs-6 out_goals" key={ "item" + idx }>{ item }</li>);
+                                            return (<li className="moderate col-sm-6 out_goals" key={ "item" + idx }>{ item }</li>);
                                         })
                                     }
                                 </ul> : <span />

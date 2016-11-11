@@ -4,8 +4,7 @@
 
 var React = require("react"),
     _ = require("lodash"),
-    // not used right now
-    config = require("../../../config/config.general");
+    config = require("../../../config/config.contact");
 
 var Contact = React.createClass({
     render: function () {
@@ -32,7 +31,48 @@ var Contact = React.createClass({
                 <hr/>
 
                 <section className="section">
-                    <h4>{config.summary}</h4>
+                    <form id="send-email" action="/sendMail">
+                        <div className="form-group">
+                            <label htmlFor="name" className="col-sm-12">Name</label>
+                            <div className="col-sm-6">
+                                <input id="name" type="text" className="form-control" placeholder="First Name" />
+                            </div>
+                            
+                            <div className="col-sm-6">
+                                <input type="text" className="form-control" placeholder="Last Name" />
+                            </div>
+                        </div>
+                        
+                        <div className="form-group">
+                            <label htmlFor="email" className="col-sm-12">Email</label>
+                            
+                            <div className="col-sm-12">
+                                <input id="email" type="email" className="form-control" placeholder="Email Address" />
+                            </div>
+                        </div>
+                        
+                        <div className="form-group">
+                            <label htmlFor="subject" className="col-sm-12">Subject</label>
+                            
+                            <div className="col-sm-12">
+                                <input id="subject" type="text" className="form-control" placeholder="Subject" />
+                            </div>
+                        </div>
+                        
+                        <div className="form-group">
+                            <label htmlFor="message" className="col-sm-12">Message</label>
+                            <div className="col-sm-12">
+                                <textarea id="message" className="form-control" rows="3"></textarea>
+                            </div>
+                        </div>
+                        
+                        <br/>
+                        <br/>
+                        
+                        <div className="col-sm-12 text-center" style={{ marginTop: "50px" }}>
+                            <button type="submit" className="btn btn-default">SEND MESSAGE</button>
+                        </div>
+                    </form>
                 </section>
 
                 <hr/>

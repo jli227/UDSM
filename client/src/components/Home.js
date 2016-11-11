@@ -13,7 +13,7 @@ var Home = React.createClass({
                 <div key={ section + idx }>
                     <section className="section">
                         { section.header ? <h2>{section.header}</h2> : <span />}
-                        { section.body ? <div className="col-sm-6 col-sm-offset-3">{section.body}<br/><br/></div> : <span />}
+                        { section.body ? <div className="col-sm-10 col-sm-offset-1">{section.body}<br/><br/></div> : <span />}
                         { section.link ? <div className="col-xs-12"><a className="btn btn-default" href={section.link.link}>{section.link.title}</a></div> : <span />}
                     </section>
                     <hr/>
@@ -44,7 +44,7 @@ var Home = React.createClass({
                 <section className="section">
                     <h2>The Facts</h2>
                     
-                    <div className="col-sm-6 col-sm-offset-3">
+                    <div className="col-sm-10 col-sm-offset-1">
                         <p>
                             <span className="facts">4,505</span> people sleeping outdoors in King County. (Seattle's One Night Count, 2016)
                         </p>

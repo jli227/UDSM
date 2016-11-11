@@ -53,12 +53,30 @@ hr {
 }
 
 .section {
-    padding: 100px;
     text-align: center;
 }
 
-.section p {
+.section p, .section form {
     text-align: left;
+}
+
+.section form label {
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .section {
+        padding: 100px;
+    }
+
+    .section form {
+        width: 75%;
+        margin: auto;
+    }
+}
+
+.send-email button {
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -81,7 +99,7 @@ h2 {
 .out_goals {
     margin-top: 2%;
     margin-bottom: 2%;
-    list-style-position: inside;
+    list-style-position: outside;
 }
 
 #month-list {

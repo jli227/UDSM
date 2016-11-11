@@ -3,3 +3,4 @@ node_modules/
 build/public/css
 build/public/js
 .DS_Store
+.npm-debug.log
