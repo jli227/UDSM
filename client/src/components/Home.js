@@ -75,9 +75,7 @@ var Home = React.createClass({
                 </section>
                 
                 <hr/>
-                <section className="section">
-
-                </section>
+                
                 { sections }
                 
                 <section className="section">
