@@ -10,7 +10,7 @@ module.exports = {
             "body2": "To eliminate health disparities by providing comprehensive care—through education of current and"
             + " future health care providers.",
             "header3": "VALUES",
-            "list2": ["Respect", "Compassion", "Accountability", "Collaboration", "Experiential Learning", "Advocacy"]
+            "list4": ["Respect", "Compassion", "Accountability", "Collaboration", "Experiential Learning", "Advocacy"]
         },
         {
             "header": "OUTREACH PROJECT",

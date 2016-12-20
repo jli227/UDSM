@@ -32,44 +32,54 @@ var Home = React.createClass({
         return (
             <div>
                 <section className="titleSection">
-                    <h1>{config.title}</h1>
+                    <h1 className="title">{config.title}</h1>
                     <h5>{config.titleDesc}</h5>
                     <div className="col-xs-12">
-                        <a href={config.link.link} className="btn btn-default">{config.link.title}</a>
+                        <a href={config.link.link} className="btn btn-secondary btn-lg title-button">{config.link.title}</a>
                     </div>
                 </section>
 
                 <hr/>
-                
+
+                <section className="section">
+                    <h5>We a student-run interdisciplinary, volunteer organization dedicated to improving health equity 
+                    among the homeless population within the University District.</h5>
+                </section>
+
+                <hr/>
+
                 <section className="section">
                     <h2>The Facts</h2>
                     
-                    <div className="col-sm-10 col-sm-offset-1">
-                        <p>
-                            <span className="facts">4,505</span> people sleeping outdoors in King County. (Seattle's One Night Count, 2016)
-                        </p>
-                        <p>
-                            <span className="facts">300</span> people sleeping outdoors or in shelters in Seattle's University District
-                        </p>
-                        <p>
-                            <span className="facts">52%</span> reported not having received any preventative or screening services in the past year.
-                        </p>
-                        
-                        <p>
-                            Within this population, health concerns are <b>extensive and unique</b>, with many health concerns that
-                            would benefit from acute and preventative care.
-                        </p>
-        
-                        <p>
-                            In our November 2013 needs assessment, the most commonly mentioned chronic health problems were
-                            tooth and gum disease, mental health disorders, chronic pain, especially back pain and arthritis, and
-                            alcoholism or other addictions. Also frequently mentioned were respiratory disease and chronic
-                            infections, particularly hepatitis.
-                        </p>
-                        
-                        <p>
-                            Reports of chronic health problems likely <b>underestimate the actual incidence</b> of these problems.
-                        </p>
+                    <div className="row">
+                        <div className="col-sm-6">
+                            <p>
+                                <span className="facts">4,505</span> people sleeping outdoors in King County. (Seattle's One Night Count, 2016)
+                            </p>
+                            <p>
+                                <span className="facts">300</span> people sleeping outdoors or in shelters in Seattle's University District
+                            </p>
+                            <p>
+                                <span className="facts">52%</span> reported not having received any preventative or screening services in the past year.
+                            </p>
+                        </div>
+                        <div className="col-sm-6">
+                            <p>
+                                Within this population, health concerns are <b>extensive and unique</b>, with many health concerns that
+                                would benefit from acute and preventative care.
+                            </p>
+            
+                            <p>
+                                In our November 2013 needs assessment, the most commonly mentioned chronic health problems were
+                                tooth and gum disease, mental health disorders, chronic pain, especially back pain and arthritis, and
+                                alcoholism or other addictions. Also frequently mentioned were respiratory disease and chronic
+                                infections, particularly hepatitis.
+                            </p>
+                            
+                            <p>
+                                Reports of chronic health problems likely <b>underestimate the actual incidence</b> of these problems.
+                            </p>
+                        </div>
                     </div>
                     
                 </section>
@@ -79,6 +89,7 @@ var Home = React.createClass({
                 { sections }
                 
                 <section className="section">
+                    <h1>PARTNERS</h1>
                     { partners }
                 </section>
                 

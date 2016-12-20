@@ -1,8 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+
+.title {
+    font-size: 60px;
+}
+
 body {
-    font-family: Futura, sans-serif;
+    font-family: 'PT Sans', Futura-pt, Futura-medium, "Futura Medium", sans-serif;
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
     padding-top: 150px;
     padding-bottom: 50px;
+    color: #4d4d4d;
+    letter-spacing: 5px;
 }
 
 section {
@@ -12,6 +22,7 @@ section {
 
 nav {
     background-color: #FFF;
+    /*color: #f7f7f7;*/
 }
 
 ul {
@@ -50,6 +61,10 @@ hr {
     height: 80vh;
     padding-top: 25vh;
     text-align: center;
+    background-image: url(../assets/home_top_background.png);
+    background-size: cover;
+    color: #f7f7f7;
+    opacity: 0.9;
 }
 
 .section {
@@ -58,6 +73,7 @@ hr {
 
 .section p, .section form {
     text-align: left;
+    font-size: 22px;
 }
 
 .section form label {
@@ -81,6 +97,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
+    font-size: 30px;
 }
 
 h2 {
@@ -99,7 +116,7 @@ h2 {
 .out_goals {
     margin-top: 2%;
     margin-bottom: 2%;
-    list-style-position: outside;
+    list-style-position: inside;
 }
 
 #month-list {
@@ -132,4 +149,22 @@ a {
 
 .mini {
     padding-top: 4%;
+}
+
+.title-button {
+    color: #f7f7f7;
+    border: #f7f7f7;
+    border-width: 3px;
+    border-style: solid;
+}
+
+a.btn {
+   /* width: 370px;
+    height: 64px;*/
+    font-size: 30px;
+    color: #f7f7f7;
+}
+
+.value-list {
+    list-style-position: inside;
 }

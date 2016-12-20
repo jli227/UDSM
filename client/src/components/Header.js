@@ -18,6 +18,7 @@ var Header = React.createClass({
         var menuOptions = config.menuOptions.map(function (opt, idx) {
                             return (<li key={ "menuOption" + idx }><a href={opt.link}>{ opt.label }</a></li>);
                           });
+
         return (
             <div>
                 <nav className="navbar navbar-fixed-top">

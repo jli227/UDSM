@@ -45,6 +45,15 @@ var Work = React.createClass({
                                     }
                                 </ul> : <span />
                             }
+                            { section.list4 ?
+                                <ul>
+                                    {
+                                        _.map(section.list4, function (item, idx) {
+                                            return (<li className="moderate col-sm-6 text-center value-list" key={ "item" + idx }>{ item }</li>);
+                                        })
+                                    }
+                                </ul> : <span />
+                            }
                             { section.link ? <a className="btn btn-default" href={section.link.link}>{section.link.title}</a> : <span />}
                         </div>
                     </section>
@@ -56,10 +65,10 @@ var Work = React.createClass({
         return (
             <div>
                 <section className="titleSection">
-                    <h1>{config.title}</h1>
+                    <h1 className="title">{config.title}</h1>
                     <h5>{config.titleDesc}</h5>
                     <div className="col-xs-12">
-                        <a href={config.link.link} className="btn btn-default">{config.link.title}</a>
+                        <a href={config.link.link} className="btn btn-secondary btn-lg title-button">{config.link.title}</a>
                     </div>
                 </section>
 

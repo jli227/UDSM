@@ -24,7 +24,7 @@ var About = React.createClass({
         return (
             <div>
                 <section className="titleSection">
-                    <h1>{config.title}</h1>
+                    <h1 className="title">{config.title}</h1>
                     <h5>{config.titleDesc}</h5>
                 </section>
                 
