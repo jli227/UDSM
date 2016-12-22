@@ -25,7 +25,7 @@ var News = React.createClass({
 
         return (
             <div>
-                <section className="titleSection">
+                <section className="titleSection page4">
                     <h1 className="title">{config.title}</h1>
                 </section>
 

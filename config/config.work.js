@@ -13,15 +13,14 @@ module.exports = {
             "list4": ["Respect", "Compassion", "Accountability", "Collaboration", "Experiential Learning", "Advocacy"]
         },
         {
-            "header": "OUTREACH PROJECT",
-            "body": "This project will provide students from multiple disciplines an excellent opportunity to engage with " + 
-            "the underserved adult homeless population of the University District, a neighborhood in which the University of" +  
-            " Washington also resides. Students will have the opportunity to link patients to available resources in the area such" +  
-            " existing community clinics. Students will also learn of other non-medical community resources in the area and learn " +
-            " referral and eligibility processes for available resources. Students will counsel patients on how to communicate with " + 
-            " their primary care providers effectively on their current and ongoing health needs. Some specific skills that students will" + 
-            " be able to utilize will be motivational interviewing, resources education and referral, vital sign acquisition and history taking." +
-            " Volunteer sessions will occur once monthly in either a community venue setting or street outreach setting."
+            "header": "OUTREACH OVERVIEW",
+            "body": "We provide students from many health sciences disciplines an opportunity to engage with the underserved " + 
+                    "adults experiencing homelessness in the University District. To support our bridge-to-care model, students " + 
+                    "link patients to available resources in the area, including existing community clinics as well as non-medical services. " +
+                    "Students learn the eligibility and referral processes for available resources. ",
+            "body3": "They then counsel patients on how to effectively communicate with their primary care providers about their current and ongoing health needs. " + 
+                    "Students practice a variety of skills such as motivational interviewing, resource education and referral, vital sign acquisition, and history taking. " +
+                    "Volunteer sessions occur three to four times a month in either a community venue or on the street. "
         },
         {
             "header": "GOALS OF OUTREACH",

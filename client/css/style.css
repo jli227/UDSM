@@ -22,7 +22,6 @@ section {
 
 nav {
     background-color: #FFF;
-    /*color: #f7f7f7;*/
 }
 
 ul {
@@ -61,10 +60,10 @@ hr {
     height: 80vh;
     padding-top: 25vh;
     text-align: center;
-    background-image: url(../assets/home_top_background.png);
     background-size: cover;
+    background-repeat: no-repeat;
     color: #f7f7f7;
-    opacity: 0.9;
+    background-position: center;
 }
 
 .section {
@@ -167,4 +166,29 @@ a.btn {
 
 .value-list {
     list-style-position: inside;
+}
+
+.page1 {
+    background-image: url(../assets/home_top_background.png);
+}
+
+.page2 {
+    background-image: url(../assets/work_top_background.png);
+}
+.page3 {
+    background-image: url(../assets/events_top_background.png);
+}
+.page4 {
+    background-image: url(../assets/news_top_background.png);
+}
+.page5 {
+    background-image: url(../assets/about_top_background.png);
+}
+.page6 {
+    background-image: url(../assets/contact_top_background.png);
+}
+.page7 {
+    background-image: url(../assets/donate_top_background.png);
+    color: #EDEDED;
+    background-color: #4d4d4d;
 }

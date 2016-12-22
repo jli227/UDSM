@@ -15,6 +15,10 @@ var Work = React.createClass({
                         <div className="col-sm-10 col-sm-offset-1">
                             { section.header ? <h2>{section.header}</h2> : <span />}
                             { section.body ? <p>{section.body}</p> : <span />}
+                            { section.body3 ? <div>
+                                <p className="col-sm-4">{section.body}</p>
+                                <p className="col-sm-4">{section.body3}</p>
+                            </div> : <span />}
                             { section.header2 ? <h2>{section.header2}</h2> : <span />}
                             { section.list3 ?
                                 <ul>
@@ -64,7 +68,7 @@ var Work = React.createClass({
 
         return (
             <div>
-                <section className="titleSection">
+                <section className="titleSection page2">
                     <h1 className="title">{config.title}</h1>
                     <h5>{config.titleDesc}</h5>
                     <div className="col-xs-12">
