@@ -53,13 +53,13 @@ var Home = React.createClass({
                     
                     <div className="row">
                         <div className="col-sm-6">
-                            <p>
+                            <p className="margin-bottom">
                                 <span className="facts">4,505</span> people sleeping outdoors in King County. (Seattle's One Night Count, 2016)
                             </p>
-                            <p>
+                            <p className="margin-bottom">
                                 <span className="facts">300</span> people sleeping outdoors or in shelters in Seattle's University District
                             </p>
-                            <p>
+                            <p className="margin-bottom">
                                 <span className="facts">52%</span> reported not having received any preventative or screening services in the past year.
                             </p>
                         </div>
@@ -78,7 +78,7 @@ var Home = React.createClass({
                 
                 { sections }
                 
-                <section className="section">
+                <section className="section partners">
                     <h1>PARTNERS</h1>
                     { partners }
                 </section>

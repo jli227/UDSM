@@ -78,7 +78,7 @@ hr {
 }
 
 .titleSection {
-    height: 80vh;
+    height: 75vh;
     padding-top: 25vh;
     text-align: center;
     background-size: cover;
@@ -219,3 +219,10 @@ a.btn {
     list-style: none;
 }
 
+.margin-bottom {
+    margin-bottom: 45px;
+}
+
+.partners {
+    background-color: #FFF;
+}

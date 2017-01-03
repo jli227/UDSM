@@ -31,7 +31,7 @@ module.exports = {
         },
         {
             "header": "OUTREACH OVERVIEW",
-            "body": "We provide students from many health sciences disciplines an opportunity to engage with the underserved " + 
+            "body4": "We provide students from many health sciences disciplines an opportunity to engage with the underserved " + 
                     "adults experiencing homelessness in the University District. To support our bridge-to-care model, students " + 
                     "link patients to available resources in the area, including existing community clinics as well as non-medical services. " +
                     "Students learn the eligibility and referral processes for available resources. ",
