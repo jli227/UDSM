@@ -1,6 +1,23 @@
 module.exports = {
     "title": "Our Work",
     "link" : {"title": "APPLY TO BE A VOLUNTEER", "link": "mailto:UDSMVOLUNTEER@GMAIL.COM"},
+    "sites" : [
+        {
+            "description": "Elizabeth Gregory Day Home in University Lutheran Chruch",
+            "regularity": "Monthly",
+            "img" : "site1"
+        },
+        {
+            "description": "Saint Vincent de Paul Sunday Dinner in Blessed Sacrament Church",
+            "regularity": "Monthly",
+            "img" : "site2"
+        },
+        {
+            "description": "University District Streets",
+            "regularity": "Bi-Monthly",
+            "img" : "site3"
+        }
+    ],
     "sections": [
         {
             "header": "MISSION",
@@ -33,22 +50,16 @@ module.exports = {
                     ]
         },
         {
-            "header": "OUTREACH CLINICS",
-            "body": "UDSM currently operates outreach clinics in the U-District to assess the needs of adults experiencing " +
-                "homelessness and refer them to basic service agencies and medical providers. This outreach is provided " +
-                "through face-to- face encounters between volunteer UW Health Sciences graduate/professional students and " +
-                "homeless clients who seem interested or request such a consultation. During the encounter, which is usually " +
-                "one-on- one, the volunteer offers some free basic supplies, such as a pair of socks or a granola bar, and " +
-                "employs motivational interviewing techniques to encourage the client to explore his/her/their challenges and " + 
-                "potential actions, always remaining respectful of the client’s decision-making autonomy. Occasionally, upon " +
-                "the client’s request, a non-invasive, narrowly focused, physical assessment is performed such as taking a blood " +
-                "pressure measurement or examining a wound. The volunteer concludes the encounter by providing referrals, " + 
-                "resources, or information on hand as requested by the client. A licensed health professional is present at every " +
-                "outreach event as a preceptor per regulations. Outreach clinics take place in three locales. One is at Elizabeth " +
-                "Gregory Day Home (for adult women) in University Lutheran Church. Another is at the Saint Vincent de Paul " +
-                "Sunday Dinner in Blessed Sacrament Church. The third, called Street Outreach, is along the streets of the U-" + 
-                "District where homeless individuals and groups are frequently seen. The outreach clinics at the two churches " +
-                "occur monthly while Street Outreach occurs every two weeks."
+            "header": "OUTREACH ACTIVITIES",
+            "body4": "Through our clinics, we assess the needs of adults experiencing homelessness, followed by a referral to medical providers and basic service agencies. UW graduate and professional health sciences student volunteers " +
+                    "meet in-person with homeless patients interested in such a consultation. During the encounter, typically one-on-one, our volunteer offers free basic supplies. 1 " + 
+                    "Students employ motivational interviewing techniques to encourage patients to explore personal challenges and actions, always respecting our patients’ autonomy.",
+            "body3": "Occasionally, upon the patient’s request, a non-invasive, narrowly-focused physical assessment is performed.2 Our volunteer concludes the visit by providing" + 
+                    "referrals and resources on-hand as requested by the patient.",
+            "mini_list": ["1 A pair of socks; a granola bar.", 
+                        "2 Blood pressure measurement; wound examination. Please note that a licensed health professional serves as a preceptor" +
+                        "and must be present at every outreach event."
+                        ]
         },
         {
             "header": "OUTREACH VOLUNTEERS",

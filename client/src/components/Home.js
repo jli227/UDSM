@@ -65,19 +65,9 @@ var Home = React.createClass({
                         </div>
                         <div className="col-sm-6">
                             <p>
-                                Within this population, health concerns are <b>extensive and unique</b>, with many health concerns that
-                                would benefit from acute and preventative care.
-                            </p>
-            
-                            <p>
-                                In our November 2013 needs assessment, the most commonly mentioned chronic health problems were
-                                tooth and gum disease, mental health disorders, chronic pain, especially back pain and arthritis, and
-                                alcoholism or other addictions. Also frequently mentioned were respiratory disease and chronic
-                                infections, particularly hepatitis.
-                            </p>
-                            
-                            <p>
-                                Reports of chronic health problems likely <b>underestimate the actual incidence</b> of these problems.
+                                Within this population, health concerns are extensive and unique, with many health concerns that would benefit from acute and preventative care. 
+                                In our November 2013 needs assessment, the most commonly mentioned chronic health problems were tooth and gum disease, mental health disorders, chronic pain, especially back pain and arthritis, and alcoholism or other addictions. Also frequently mentioned were respiratory disease and chronic infections, particularly hepatitis. 
+                                Reports of chronic health problems likely underestimate the actual incidence of these problems. 
                             </p>
                         </div>
                     </div>

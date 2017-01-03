@@ -5,19 +5,30 @@
 var React = require("react"),
     _ = require("lodash"),
     config = require("../../../config/config.work");
+var Image = require('react-bootstrap/lib/Image')
+
+var sites = _.map(config.sites, function (site, idx) {
+            return (
+                <div key={ "site" + idx} className="col-sm-3 col-lg-4">
+                    <img className="center-block" style={{ maxWidth: "200px", maxHeight: "200px", verticalAlign: "center" }} src={ "../assets/sites/" + site.img + ".png"} />
+                    <p className="text-center">{ site.description }</p>
+                    <p className="smallText text-center">{ site.regularity }</p>
+                </div>
+            );
+        });
 
 var Work = React.createClass({
     render: function () {
         var sections = _.map(config.sections, function (section, idx) {
             return (
-                <div key={ section + idx }>
+                <div key={ section + idx }> 
                     <section className="section">
                         <div className="col-sm-10 col-sm-offset-1">
                             { section.header ? <h2>{section.header}</h2> : <span />}
                             { section.body ? <p>{section.body}</p> : <span />}
                             { section.body3 ? <div>
-                                <p className="col-sm-4">{section.body}</p>
-                                <p className="col-sm-4">{section.body3}</p>
+                                <p className="col-sm-6">{section.body4}</p>
+                                <p className="col-sm-6">{section.body3}</p>
                             </div> : <span />}
                             { section.header2 ? <h2>{section.header2}</h2> : <span />}
                             { section.list3 ?
@@ -58,6 +69,15 @@ var Work = React.createClass({
                                     }
                                 </ul> : <span />
                             }
+                            { section.mini_list ?
+                                <ul>
+                                    {
+                                        _.map(section.mini_list, function (item, idx) {
+                                            return (<li className="col-sm-6 smallText" key={ "item" + idx }>{ item }</li>);
+                                        })
+                                    }
+                                </ul> : <span />
+                            }
                             { section.link ? <a className="btn btn-default" href={section.link.link}>{section.link.title}</a> : <span />}
                         </div>
                     </section>
@@ -79,6 +99,13 @@ var Work = React.createClass({
                 <hr/>
 
                 { sections }
+
+                <section className="row">
+                    { sites } 
+                </section>
+
+                <hr/>
+
             </div>
         );
     }

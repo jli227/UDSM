@@ -3,7 +3,7 @@ module.exports = {
     "sections": [
         {
             "calheader": "EVENTS",
-            "cal": ["January 2016", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+            "cal": ["January 2017", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
             "events": [
                 {
                     "title": "TRAINING",

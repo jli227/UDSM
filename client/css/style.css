@@ -13,6 +13,8 @@ body {
     padding-bottom: 50px;
     color: #4d4d4d;
     letter-spacing: 5px;
+    background-color: #e9e9e9;
+
 }
 
 section {
@@ -20,8 +22,26 @@ section {
     width: 100%;
 }
 
-nav {
-    background-color: #FFF;
+.navbar /*.navbar-default .navbar-collapse .navbar-form*/ {
+    background-color: #e9e9e9;;
+    border: none;
+    border-style: none;
+    background-image: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar.navbar-default {
+    background-color: none;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 ul {
@@ -31,6 +51,7 @@ ul {
 hr {
     height: 12px;
     border: 0;
+    width: 80%;
     box-shadow: inset 0 6px 6px -6px rgba(0, 0, 0, 0.3);
 }
 
@@ -72,7 +93,7 @@ hr {
 
 .section p, .section form {
     text-align: left;
-    font-size: 22px;
+    /*font-size: 22px;*/
 }
 
 .section form label {
@@ -192,3 +213,9 @@ a.btn {
     color: #EDEDED;
     background-color: #4d4d4d;
 }
+
+.smallText {
+    font-size: 10px;
+    list-style: none;
+}
+

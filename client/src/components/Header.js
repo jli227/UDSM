@@ -6,7 +6,10 @@
 var React = require("react"),
     _ = require("lodash"),
     config = require("../../../config/config.general");
-
+var ReactBootstrap = require('react-bootstrap');
+/*    
+var Navbar = require('react-bootstrap/lib/Navbar')
+var Nav = require('react-bootstrap/lib/Nav')*/
 var Header = React.createClass({
     getInitialState: function () {
         return {
@@ -16,29 +19,24 @@ var Header = React.createClass({
 
     render: function () {
         var menuOptions = config.menuOptions.map(function (opt, idx) {
-                            return (<li key={ "menuOption" + idx }><a href={opt.link}>{ opt.label }</a></li>);
+                            return (<ReactBootstrap.NavItem eventKey={ "menuOption" + idx } href={ opt.link } className="text-right">{ opt.label }</ReactBootstrap.NavItem>);
                           });
 
         return (
             <div>
-                <nav className="navbar navbar-fixed-top">
-                    <div className="container-fluid">
-                        <div className="navbar-header">
-                            <a className="navbar-brand" href="index">
+                <ReactBootstrap.Navbar fixedTop fluid>
+                    <ReactBootstrap.Navbar.Header>
+                        <a href="index">
                                 <img id="udsm-logo" src="../assets/udsm-logo.png" />
-                            </a>
-                            <button className="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapseNav"
-                                    aria-controls="#collapseNav" aria-expanded="false" aria-label="Toggle navigation">
-                                &#9776;
-                            </button>
-                        </div>
-                        <div className="collapse navbar-collapse" id="collapseNav">
-                            <ul id="menu" className="nav navbar-nav navbar-right">
-                                { menuOptions }
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+                        </a>
+                        <ReactBootstrap.Navbar.Toggle />
+                    </ReactBootstrap.Navbar.Header>
+                    <ReactBootstrap.Navbar.Collapse>
+                        <ReactBootstrap.Nav id="menu" pullRight>
+                            { menuOptions }
+                        </ReactBootstrap.Nav>
+                    </ReactBootstrap.Navbar.Collapse>
+                </ReactBootstrap.Navbar>
             </div>
         );
     },
