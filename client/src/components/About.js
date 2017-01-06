@@ -15,7 +15,7 @@ function leaders (leader, idx) {
                             {
                                 _.map(leader.description, function (descriptions, idx) {
                                     return (
-                                        <p key={"description" + idx }> { descriptions }</p>
+                                        <p className="text-center" key={"description" + idx }> { descriptions }</p>
                                     )
                                 })
                             }
