@@ -7,7 +7,7 @@ module.exports = {
             "header": "DONATE TODAY",
             "body": "With your help, we can provide free care for the underserved who cannot afford to pay. Your " +
                     "investment goes towards medical supplies to keep our services going strong.",
-            "link": {"title": "MAKE DONATION", "link": "donate"}
+            "link": {"title": "MAKE A DONATION", "link": "donate"}
         },
         {
             "header": "GET INVOLVED",

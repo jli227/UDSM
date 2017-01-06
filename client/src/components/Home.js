@@ -42,7 +42,7 @@ var Home = React.createClass({
                 <hr/>
 
                 <section className="section">
-                    <h5>We a student-run interdisciplinary, volunteer organization dedicated to improving health equity 
+                    <h5>We are a student-run interdisciplinary, volunteer organization dedicated to improving health equity 
                     among the homeless population within the University District.</h5>
                 </section>
 
@@ -54,7 +54,7 @@ var Home = React.createClass({
                     <div className="row">
                         <div className="col-sm-6">
                             <p className="margin-bottom">
-                                <span className="facts">4,505</span> people sleeping outdoors in King County. (Seattle's One Night Count, 2016)
+                                <span className="facts">4,505</span> people sleep outdoors in King County. (Seattle's One Night Count, 2016)
                             </p>
                             <p className="margin-bottom">
                                 <span className="facts">300</span> people sleeping outdoors or in shelters in Seattle's University District
