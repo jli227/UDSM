@@ -4,7 +4,6 @@
   "description": "This is a general website template that uses configuration templates to plug in data.",
   "scripts": {
     "start": "node serve.js",
-    "postinstall": "grunt build"
   },
   "engines": {
     "node": "4.1.1",
@@ -43,8 +42,5 @@
     "grunt-react": "^0.12.3",
     "grunt-run": "^0.6.0",
     "reactify": "^1.1.1"
-  },
-  "peerDependencies": {
-    "grunt": ">=0.4.0"
   }
 }
